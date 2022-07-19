@@ -11,7 +11,7 @@
     "debug": "~2.6.9",
     "dotenv": "^14.3.2",
     "express": "~4.16.1",
-    "express-handlebars": "^6.0.2",
+    "express-handlebars": "^6.0.6",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
     "mongoose": "^6.1.8",
