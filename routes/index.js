@@ -7,9 +7,9 @@ let data = {
 }
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.status(200).send({
-    eage: "salom",
-    name: "Tempiltin"
+  res.render("index",{
+    layout: 'main',
+    title:"api"
   })
   console.log(window.location.pathname)
 });
